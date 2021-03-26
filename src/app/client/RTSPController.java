@@ -9,12 +9,14 @@ import java.net.Socket;
 import java.util.StringTokenizer;
 
 public class RTSPController {
+    public static int RTP_RCV_PORT = 25000;
+
     private final InetAddress serverIPAddress;
 
     private final BufferedReader rtspBufferedReader;
     private final BufferedWriter rtspBufferedWriter;
-    private final String videoFilePath; //video file to request to the server
-    private String rtspSessionID;              // ID of the RTSP session (given by the RTSP app.server.Server)
+    private final String videoFilePath;
+    private String rtspSessionID;
     private int rtspSequence = 0;
 
     final String CRLF = "\r\n";
@@ -26,7 +28,6 @@ public class RTSPController {
         String ServerHost = "localhost";
         serverIPAddress = InetAddress.getByName(ServerHost);
 
-        //socket used to send/receive RTSP messages
         Socket rtspSocket = new Socket(serverIPAddress, RTSP_server_port);
 
         rtspBufferedReader = new BufferedReader(new InputStreamReader(rtspSocket.getInputStream()));
@@ -35,11 +36,12 @@ public class RTSPController {
 
     public void sendRequest(RTSPRequestEnum request) {
         try {
+            this.rtspSequence++;
+
             rtspBufferedWriter.write(request + " " + videoFilePath + " RTSP/1.0" + CRLF);
             rtspBufferedWriter.write("CSeq: " + rtspSequence + CRLF);
 
             if (request == RTSPRequestEnum.SETUP) {
-                int RTP_RCV_PORT = 25000;
                 rtspBufferedWriter.write("Transport: RTP/UDP; client_port= " + RTP_RCV_PORT + CRLF);
             } else if (request == RTSPRequestEnum.DESCRIBE) {
                 rtspBufferedWriter.write("Accept: application/sdp" + CRLF);
@@ -80,7 +82,7 @@ public class RTSPController {
                 if (state == RTSPStateEnum.INIT && temp.compareTo("Session:") == 0) {
                     rtspSessionID = tokens.nextToken();
                 } else if (temp.compareTo("Content-Base:") == 0) {
-                    // Get the DESCRIBE lines
+
                     String newLine;
                     for (int i = 0; i < 6; i++) {
                         newLine = rtspBufferedReader.readLine();
@@ -98,10 +100,6 @@ public class RTSPController {
 
     public void setRtspSequence(int number) {
         this.rtspSequence = number;
-    }
-
-    public void increaseSequence() {
-        this.rtspSequence++;
     }
 
     public InetAddress getServerIPAddress() {

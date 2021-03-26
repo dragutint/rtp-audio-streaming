@@ -1,50 +1,40 @@
-package app.common;//class RTPpacket
+package app.common;
 
 import java.util.*;
 
 public class RTPPacket {
-
     static int HEADER_SIZE = 12;
 
-    //Fields that compose the RTP header
-    public int Version;
-    public int Padding;
-    public int Extension;
-    public int CC;
-    public int Marker;
-    public int PayloadType;
-    public int SequenceNumber;
-    public int TimeStamp;
-    public int Ssrc;
+    // RTP header fields
+    private int Version;
+    private int Padding;
+    private int Extension;
+    private int CC;
+    private int Marker;
+    private int PayloadType;
+    private int SequenceNumber;
+    private int TimeStamp;
+    private int Ssrc;
 
     public byte[] header;
 
-    //size of the RTP payload
-    public int payload_size;
-    //Bitstream of the RTP payload
+    public int payloadSize;
     public byte[] payload;
 
-    //--------------------------
-    //Constructor of an RTPpacket object from header fields and payload bitstream
-    //--------------------------
-    public RTPPacket(int PType, int Framenb, int Time, byte[] data, int data_length) {
-        //fill by default header fields:
+    public RTPPacket(int PType, int Framenb, int Time, byte[] data, int dataLength) {
         Version = 2;
         Padding = 0;
         Extension = 0;
         CC = 0;
         Marker = 0;
-        Ssrc = 1337;    // Identifies the server
+        Ssrc = 1337;
 
-        //fill changing header fields:
         SequenceNumber = Framenb;
         TimeStamp = Time;
         PayloadType = PType;
 
-        //build the header bistream:
         header = new byte[HEADER_SIZE];
 
-        //fill the header array of byte with RTP header fields
         header[0] = (byte) (Version << 6 | Padding << 5 | Extension << 4 | CC);
         header[1] = (byte) (Marker << 7 | PayloadType & 0x000000FF);
         header[2] = (byte) (SequenceNumber >> 8);
@@ -58,19 +48,13 @@ public class RTPPacket {
         header[10] = (byte) (Ssrc >> 8);
         header[11] = (byte) (Ssrc & 0xFF);
 
-        //fill the payload bitstream:
-        payload_size = data_length;
-        payload = new byte[data_length];
+        payloadSize = dataLength;
+        payload = new byte[dataLength];
 
-        //fill payload array of byte from data (given in parameter of the constructor)
-        payload = Arrays.copyOf(data, payload_size);
+        payload = Arrays.copyOf(data, payloadSize);
     }
 
-    //--------------------------
-    //Constructor of an RTPpacket object from the packet bistream 
-    //--------------------------
-    public RTPPacket(byte[] packet, int packet_size) {
-        //fill default fields:
+    public RTPPacket(byte[] packet, int packetSize) {
         Version = 2;
         Padding = 0;
         Extension = 0;
@@ -78,20 +62,16 @@ public class RTPPacket {
         Marker = 0;
         Ssrc = 0;
 
-        //check if total packet size is lower than the header size
-        if (packet_size >= HEADER_SIZE) {
-            //get the header bitsream:
+        if (packetSize >= HEADER_SIZE) {
             header = new byte[HEADER_SIZE];
             for (int i = 0; i < HEADER_SIZE; i++)
                 header[i] = packet[i];
 
-            //get the payload bitstream:
-            payload_size = packet_size - HEADER_SIZE;
-            payload = new byte[payload_size];
-            for (int i = HEADER_SIZE; i < packet_size; i++)
+            payloadSize = packetSize - HEADER_SIZE;
+            payload = new byte[payloadSize];
+            for (int i = HEADER_SIZE; i < packetSize; i++)
                 payload[i - HEADER_SIZE] = packet[i];
 
-            //interpret the changing fields of the header:
             Version = (header[0] & 0xFF) >>> 6;
             PayloadType = header[1] & 0x7F;
             SequenceNumber = (header[3] & 0xFF) + ((header[2] & 0xFF) << 8);
@@ -99,71 +79,44 @@ public class RTPPacket {
         }
     }
 
-    //--------------------------
-    //getpayload: return the payload bistream of the RTPpacket and its size
-    //--------------------------
-    public int getpayload(byte[] data) {
+    public byte[] getPayload() {
+        byte[] data = new byte[getLength()];
 
-        for (int i = 0; i < payload_size; i++)
-            data[i] = payload[i];
+        if (payloadSize >= 0) System.arraycopy(payload, 0, data, 0, payloadSize);
 
-        return (payload_size);
+        return data;
     }
 
-    //--------------------------
-    //getpayload_length: return the length of the payload
-    //--------------------------
-    public int getpayload_length() {
-        return (payload_size);
+    public int getPayloadLength() {
+        return (payloadSize);
     }
 
-    //--------------------------
-    //getlength: return the total length of the RTP packet
-    //--------------------------
-    public int getlength() {
-        return (payload_size + HEADER_SIZE);
+    public int getLength() {
+        return (payloadSize + HEADER_SIZE);
     }
 
-    //--------------------------
-    //getpacket: returns the packet bitstream and its length
-    //--------------------------
-    public int getpacket(byte[] packet) {
-        //construct the packet = header + payload
-        for (int i = 0; i < HEADER_SIZE; i++)
-            packet[i] = header[i];
-        for (int i = 0; i < payload_size; i++)
-            packet[i + HEADER_SIZE] = payload[i];
+    public byte[] getPacket() {
+        byte[] packet = new byte[getLength()];
 
-        //return total size of the packet
-        return (payload_size + HEADER_SIZE);
+        if (HEADER_SIZE >= 0) System.arraycopy(header, 0, packet, 0, HEADER_SIZE);
+        if (payloadSize >= 0) System.arraycopy(payload, 0, packet, HEADER_SIZE, payloadSize);
+
+        return packet;
     }
 
-    //--------------------------
-    //gettimestamp
-    //--------------------------
-
-    public int gettimestamp() {
+    public int getTimeStamp() {
         return (TimeStamp);
     }
 
-    //--------------------------
-    //getsequencenumber
-    //--------------------------
-    public int getsequencenumber() {
+    public int getSequenceNumber() {
         return (SequenceNumber);
     }
 
-    //--------------------------
-    //getpayloadtype
-    //--------------------------
-    public int getpayloadtype() {
+    public int getPayloadType() {
         return (PayloadType);
     }
 
-    //--------------------------
-    //print headers without the SSRC
-    //--------------------------
-    public void printheader() {
+    public void printHeader() {
         System.out.print("[RTP-Header] ");
         System.out.println("Version: " + Version
                 + ", Padding: " + Padding

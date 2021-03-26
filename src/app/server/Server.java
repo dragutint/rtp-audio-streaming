@@ -230,23 +230,14 @@ public class Server extends JFrame implements ActionListener {
                     System.arraycopy(frame, 0, buf, 0, image_length);
                 }
 
-                //Builds an RTPpacket object containing the frame
-                RTPPacket rtp_packet = new RTPPacket(MJPEG_TYPE, imagenb, imagenb * FRAME_PERIOD, buf, image_length);
+                RTPPacket rtpPacket = new RTPPacket(MJPEG_TYPE, imagenb, imagenb * FRAME_PERIOD, buf, image_length);
 
-                //get to total length of the full rtp packet to send
-                int packet_length = rtp_packet.getlength();
-
-                //retrieve the packet bitstream and store it in an array of bytes
-                byte[] packet_bits = new byte[packet_length];
-                rtp_packet.getpacket(packet_bits);
-
-                //send the packet as a DatagramPacket over the UDP socket 
-                senddp = new DatagramPacket(packet_bits, packet_length, ClientIPAddr, RTP_dest_port);
+                senddp = new DatagramPacket(rtpPacket.getPacket(), rtpPacket.getLength(), ClientIPAddr, RTP_dest_port);
                 RTPsocket.send(senddp);
 
                 System.out.println("Send frame #" + imagenb + ", Frame size: " + image_length + " (" + buf.length + ")");
                 //print the header bitstream
-                rtp_packet.printheader();
+                rtpPacket.printHeader();
 
                 //update GUI
                 label.setText("Send frame #" + imagenb);
