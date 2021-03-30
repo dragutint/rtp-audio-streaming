@@ -4,24 +4,16 @@ import java.io.*;
 
 public class VideoStream {
 
-    FileInputStream fis; //video file
-    int frame_nb; //current frame nb
+    FileInputStream fis;
+    int frameNumber;
 
-    //-----------------------------------
-    //constructor
-    //-----------------------------------
     public VideoStream(String filename) throws Exception {
-
-        //init variables
         fis = new FileInputStream(filename);
-        frame_nb = 0;
+        frameNumber = 0;
     }
 
-    //-----------------------------------
-    // getnextframe
     //returns the next frame as an array of byte and the size of the frame
-    //-----------------------------------
-    public int getnextframe(byte[] frame) throws Exception {
+    public int getNextFrame(byte[] frame) throws Exception {
         int length = 0;
         String length_string;
         byte[] frame_length = new byte[5];
