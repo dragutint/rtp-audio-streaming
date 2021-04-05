@@ -19,6 +19,7 @@ public class AudioRecorder extends Thread {
         targetDataLine.open(adFormat);
         targetDataLine.start();
     }
+
     @Override
     public void run() {
         ByteArrayOutputStream byteOutputStream = new ByteArrayOutputStream();

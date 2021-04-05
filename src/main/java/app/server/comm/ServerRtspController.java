@@ -14,7 +14,7 @@ import java.util.UUID;
 @Log4j2
 @Data
 public class ServerRtspController {
-    private RtpController rtpCtx;
+    private ServerRtpController rtpCtx;
     private Socket rtspSocket;
     private BufferedReader rtspBufferedReader;
     private BufferedWriter rtspBufferedWriter;
@@ -22,7 +22,7 @@ public class ServerRtspController {
     private String rtspId = UUID.randomUUID().toString();
     private int rtspSeqNb = 0;
 
-    public ServerRtspController(Socket rtspSocket, RtpController rtpCtx) throws IOException {
+    public ServerRtspController(Socket rtspSocket, ServerRtpController rtpCtx) throws IOException {
         state = RTSPStateEnum.INIT;
         this.rtspSocket = rtspSocket;
         this.rtpCtx = rtpCtx;

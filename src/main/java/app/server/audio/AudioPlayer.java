@@ -14,7 +14,7 @@ public class AudioPlayer {
 
     public void playAudio() {
         try {
-            byte audioData[] = AudioStorage.getInstance().getBuffer();
+            byte[] audioData = AudioStorage.getInstance().getBuffer();
             InputStream byteInputStream = new ByteArrayInputStream(audioData);
             AudioFormat adFormat = Constants.getAudioFormat();
             inputStream = new AudioInputStream(byteInputStream, adFormat, audioData.length / adFormat.getFrameSize());

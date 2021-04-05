@@ -7,10 +7,10 @@ public class Constants {
 
     public static AudioFormat getAudioFormat() {
         float sampleRate = 16000.0F;
-        int sampleInbits = 16;
+        int sampleInBits = 16;
         int channels = 1;
         boolean signed = true;
         boolean bigEndian = false;
-        return new AudioFormat(sampleRate, sampleInbits, channels, signed, bigEndian);
+        return new AudioFormat(sampleRate, sampleInBits, channels, signed, bigEndian);
     }
 }

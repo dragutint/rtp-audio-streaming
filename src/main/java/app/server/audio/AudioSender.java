@@ -1,44 +1,45 @@
 package app.server.audio;
 
-import app.common.Constants;
-import app.common.RTPPacket;
-import app.server.comm.RtpController;
+import app.server.comm.ServerRtpController;
 import lombok.Data;
 import lombok.SneakyThrows;
+import lombok.extern.log4j.Log4j2;
 
-import javax.sound.sampled.AudioFormat;
-import javax.sound.sampled.AudioInputStream;
-import java.io.ByteArrayInputStream;
-import java.io.InputStream;
-import java.net.DatagramPacket;
+import javax.swing.*;
 
+@Log4j2
 @Data
 public class AudioSender extends Thread {
-    private RtpController ctx;
+    private ServerRtpController ctx;
+    private Timer timer;
+    private int sendDelay;
+    public static final int FRAME_PERIOD = 150; // Frame period of the audio to stream, in ms
+    private Integer packetNumber = 0;
+    private Integer readBytesLength = 0;
 
-    public AudioSender(RtpController ctx){
+    public AudioSender(ServerRtpController ctx){
         this.ctx = ctx;
+        sendDelay = FRAME_PERIOD;
+        timer = new Timer(sendDelay, new AudioSenderListener(this, packetNumber, readBytesLength, ctx));
+        timer.setInitialDelay(0);
+        timer.setCoalesce(true);
     }
 
     @SneakyThrows
     @Override
     public void run() {
-        byte[] tempBuffer = new byte[20000];
+        timer.start();
+    }
 
-        while(true) {
-            byte[] audioData = AudioStorage.getInstance().getBuffer();
-            InputStream byteInputStream = new ByteArrayInputStream(audioData);
-            AudioFormat audioFormat = Constants.getAudioFormat();
-            AudioInputStream inputStream = new AudioInputStream(byteInputStream, audioFormat, audioData.length / audioFormat.getFrameSize());
+    public void stopTimer(){
+        this.timer.stop();
+    }
 
-            int cnt;
-            while ((cnt = inputStream.read(tempBuffer, 0, tempBuffer.length)) != -1) {
-                if (cnt > 0) {
-                    RTPPacket rtpPacket = new RTPPacket(ctx.getAudioType(), 0, 0, tempBuffer, cnt);
-                    DatagramPacket sendPacket = new DatagramPacket(rtpPacket.getPacket(), rtpPacket.getLength(), ctx.getClientIPAddr(), ctx.getRtpDestPort());
-                    ctx.getRtpSocket().send(sendPacket);
-                }
-            }
-        }
+    public void pause() {
+        this.timer.stop();
+    }
+
+    public void play() {
+        this.timer.start();
     }
 }

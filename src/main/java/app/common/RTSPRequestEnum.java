@@ -5,7 +5,7 @@ public enum RTSPRequestEnum {
     PLAY(4),
     PAUSE(5),
     TEARDOWN(6),
-    DESCRIBE(7),
+    DESCRIBE(7), // TODO remove this
     ;
 
     int numericId;
