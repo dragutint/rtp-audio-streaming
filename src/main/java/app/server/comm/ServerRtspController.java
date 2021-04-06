@@ -39,7 +39,7 @@ public class ServerRtspController {
         RTSPRequestEnum request = null;
         try {
             String requestLine = rtspBufferedReader.readLine();
-            log.debug("RTSP app.server.Server - Received from app.client.Client:");
+            log.debug("RTSP Server - Received from client:");
             log.debug(requestLine);
 
             StringTokenizer tokens = new StringTokenizer(requestLine);
@@ -58,10 +58,10 @@ public class ServerRtspController {
             tokens = new StringTokenizer(lastLine);
             if (request == RTSPRequestEnum.SETUP) {
                 for (int i = 0; i < 3; i++)
-                    tokens.nextToken(); //skip unused stuff
+                    tokens.nextToken();
                 rtpController.setRtpDestPort(Integer.parseInt(tokens.nextToken()));
             } else {
-                tokens.nextToken(); //skip Session:
+                tokens.nextToken();
                 rtspId = tokens.nextToken();
             }
         } catch (Exception ex) {
@@ -79,7 +79,7 @@ public class ServerRtspController {
             rtspBufferedWriter.write("CSeq: " + rtspSeqNb + Constants.CRLF);
             rtspBufferedWriter.write("Session: " + rtspId + Constants.CRLF);
             rtspBufferedWriter.flush();
-            log.debug("RTSP app.server.Server - Sent response to app.client.Client.");
+            log.debug("RTSP server - sent response to client");
         } catch (Exception ex) {
             log.error("Exception caught: ", ex);
             System.exit(0);
