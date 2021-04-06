@@ -55,7 +55,7 @@ public class ClientRtspController {
 
         try {
             String statusLine = rtspBufferedReader.readLine();
-            log.debug("RTSP app.client.Client - Received from app.server.Server:");
+            log.debug("RTSP client - Received from server:");
             log.debug(statusLine);
 
             StringTokenizer tokens = new StringTokenizer(statusLine);
