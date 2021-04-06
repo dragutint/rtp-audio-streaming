@@ -6,6 +6,7 @@ target/
 *.iml
 *.iws
 /mreze-rtp-app.iml
+mreze-rtp-app.iml
 mreze-rtp-app-client/target/
 mreze-rtp-app-common/target/
 mreze-rtp-app-server/target/
