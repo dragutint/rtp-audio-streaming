@@ -49,12 +49,6 @@ public class AudioSenderListener implements ActionListener {
                 audioSender.stopTimer();
                 return;
             }
-//            if (congestionLevel > 0) {
-//                imgTranslator.setCompressionQuality(1.0f - congestionLevel * 0.2f);
-//                frame = imgTranslator.compress(Arrays.copyOfRange(buf, 0, frameLength));
-//                frameLength = frame.length;
-//                System.arraycopy(frame, 0, buf, 0, frameLength);
-//            }
 
             RTPPacket rtpPacket = new RTPPacket(ctx.getAudioType(), packetNumber, packetNumber * AudioSender.FRAME_PERIOD, frame, frameLength);
 
