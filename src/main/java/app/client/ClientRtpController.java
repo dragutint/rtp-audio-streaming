@@ -16,12 +16,12 @@ import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 
 @Log4j2
-public class AudioReceiver extends Thread {
+public class ClientRtpController extends Thread {
     private final DatagramSocket rtpSocket;
     private SourceDataLine sourceLine;
     private final Timer timer;
 
-    public AudioReceiver(DatagramSocket rtpSocket){
+    public ClientRtpController(DatagramSocket rtpSocket){
         this.rtpSocket = rtpSocket;
         timer = new Timer(150, new AudioReceiverListener());
         timer.setInitialDelay(0);

@@ -14,7 +14,7 @@ public class ClientFormController {
     private final ClientRtspController rtspController;
     private DatagramSocket rtpSocket;
     private RTSPStateEnum state;
-    private AudioReceiver audioReceiver = null;
+    private ClientRtpController rtpController = null;
 
     public ClientFormController() throws IOException {
         ClientForm form = new ClientForm();
@@ -63,11 +63,11 @@ public class ClientFormController {
                 if (rtspController.parseServerResponse(state) != 200)
                     log.debug("Invalid app.server.Server Response");
                 else {
-                    if(audioReceiver == null) {
-                        audioReceiver = new AudioReceiver(rtpSocket);
-                        audioReceiver.start();
+                    if(rtpController == null) {
+                        rtpController = new ClientRtpController(rtpSocket);
+                        rtpController.start();
                     } else
-                        audioReceiver.play();
+                        rtpController.play();
                     state = RTSPStateEnum.PLAYING;
                     log.debug("New RTSP state: PLAYING");
                 }
@@ -86,7 +86,7 @@ public class ClientFormController {
                     log.debug("Invalid app.server.Server Response");
                 else {
                     state = RTSPStateEnum.READY;
-                    audioReceiver.pause();
+                    rtpController.pause();
                     log.debug("New RTSP state: READY");
                 }
             }

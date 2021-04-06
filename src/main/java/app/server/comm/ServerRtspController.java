@@ -14,7 +14,7 @@ import java.util.UUID;
 @Log4j2
 @Data
 public class ServerRtspController {
-    private ServerRtpController rtpCtx;
+    private ServerRtpController rtpController;
     private Socket rtspSocket;
     private BufferedReader rtspBufferedReader;
     private BufferedWriter rtspBufferedWriter;
@@ -22,10 +22,10 @@ public class ServerRtspController {
     private String rtspId = UUID.randomUUID().toString();
     private int rtspSeqNb = 0;
 
-    public ServerRtspController(Socket rtspSocket, ServerRtpController rtpCtx) throws IOException {
+    public ServerRtspController(Socket rtspSocket, ServerRtpController rtpController) throws IOException {
         state = RTSPStateEnum.INIT;
         this.rtspSocket = rtspSocket;
-        this.rtpCtx = rtpCtx;
+        this.rtpController = rtpController;
 
         this.rtspBufferedReader = new BufferedReader(new InputStreamReader(rtspSocket.getInputStream()));
         this.rtspBufferedWriter = new BufferedWriter(new OutputStreamWriter(rtspSocket.getOutputStream()));
@@ -47,24 +47,20 @@ public class ServerRtspController {
 
             request = RTSPRequestEnum.valueOf(requestTypeString);
 
-            //parse the SeqNumLine and extract CSeq field
             String seqNumLine = rtspBufferedReader.readLine();
             log.debug(seqNumLine);
             tokens = new StringTokenizer(seqNumLine);
             tokens.nextToken();
             this.rtspSeqNb = Integer.parseInt(tokens.nextToken());
-            //get LastLine
             String lastLine = rtspBufferedReader.readLine();
             log.debug(lastLine);
 
             tokens = new StringTokenizer(lastLine);
             if (request == RTSPRequestEnum.SETUP) {
-                //extract RTP_dest_port from LastLine
                 for (int i = 0; i < 3; i++)
                     tokens.nextToken(); //skip unused stuff
-                rtpCtx.setRtpDestPort(Integer.parseInt(tokens.nextToken()));
+                rtpController.setRtpDestPort(Integer.parseInt(tokens.nextToken()));
             } else {
-                //otherwise LastLine will be the SessionId line
                 tokens.nextToken(); //skip Session:
                 rtspId = tokens.nextToken();
             }

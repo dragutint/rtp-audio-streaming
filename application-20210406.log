@@ -48,31 +48,31 @@
 2021-04-06 18:26:55.157 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - CSeq: 3
 2021-04-06 18:26:55.157 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - Session: 521a905a-76ef-48f2-9c70-7b8c9c37f364
 2021-04-06 18:26:55.175 [AWT-EventQueue-0] DEBUG app.client.ClientFormController - New RTSP state: PLAYING
-2021-04-06 18:26:55.320 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 1 TimeStamp 150 ms, of type 26
-2021-04-06 18:26:55.472 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 2 TimeStamp 300 ms, of type 26
-2021-04-06 18:26:55.623 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 3 TimeStamp 450 ms, of type 26
-2021-04-06 18:26:55.778 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 4 TimeStamp 600 ms, of type 26
-2021-04-06 18:26:55.931 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 5 TimeStamp 750 ms, of type 26
-2021-04-06 18:26:56.084 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 6 TimeStamp 900 ms, of type 26
-2021-04-06 18:26:56.237 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 7 TimeStamp 1050 ms, of type 26
-2021-04-06 18:26:56.390 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 8 TimeStamp 1200 ms, of type 26
-2021-04-06 18:26:56.545 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 9 TimeStamp 1350 ms, of type 26
-2021-04-06 18:26:56.700 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 10 TimeStamp 1500 ms, of type 26
-2021-04-06 18:26:56.855 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 11 TimeStamp 1650 ms, of type 26
-2021-04-06 18:26:57.009 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 12 TimeStamp 1800 ms, of type 26
-2021-04-06 18:26:57.159 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 13 TimeStamp 1950 ms, of type 26
-2021-04-06 18:26:57.309 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 14 TimeStamp 2100 ms, of type 26
-2021-04-06 18:26:57.464 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 15 TimeStamp 2250 ms, of type 26
-2021-04-06 18:26:57.616 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 16 TimeStamp 2400 ms, of type 26
-2021-04-06 18:26:57.769 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 17 TimeStamp 2550 ms, of type 26
-2021-04-06 18:26:57.923 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 18 TimeStamp 2700 ms, of type 26
+2021-04-06 18:26:55.320 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 1 TimeStamp 150 ms, of type 26
+2021-04-06 18:26:55.472 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 2 TimeStamp 300 ms, of type 26
+2021-04-06 18:26:55.623 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 3 TimeStamp 450 ms, of type 26
+2021-04-06 18:26:55.778 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 4 TimeStamp 600 ms, of type 26
+2021-04-06 18:26:55.931 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 5 TimeStamp 750 ms, of type 26
+2021-04-06 18:26:56.084 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 6 TimeStamp 900 ms, of type 26
+2021-04-06 18:26:56.237 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 7 TimeStamp 1050 ms, of type 26
+2021-04-06 18:26:56.390 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 8 TimeStamp 1200 ms, of type 26
+2021-04-06 18:26:56.545 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 9 TimeStamp 1350 ms, of type 26
+2021-04-06 18:26:56.700 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 10 TimeStamp 1500 ms, of type 26
+2021-04-06 18:26:56.855 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 11 TimeStamp 1650 ms, of type 26
+2021-04-06 18:26:57.009 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 12 TimeStamp 1800 ms, of type 26
+2021-04-06 18:26:57.159 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 13 TimeStamp 1950 ms, of type 26
+2021-04-06 18:26:57.309 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 14 TimeStamp 2100 ms, of type 26
+2021-04-06 18:26:57.464 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 15 TimeStamp 2250 ms, of type 26
+2021-04-06 18:26:57.616 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 16 TimeStamp 2400 ms, of type 26
+2021-04-06 18:26:57.769 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 17 TimeStamp 2550 ms, of type 26
+2021-04-06 18:26:57.923 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 18 TimeStamp 2700 ms, of type 26
 2021-04-06 18:26:57.924 [AWT-EventQueue-0] DEBUG app.client.ClientFormController - Pause Button pressed!
 2021-04-06 18:26:57.927 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - RTSP app.client.Client - Received from app.server.Server:
 2021-04-06 18:26:57.927 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - RTSP/1.0 200 OK
 2021-04-06 18:26:57.927 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - CSeq: 4
 2021-04-06 18:26:57.928 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - Session: 521a905a-76ef-48f2-9c70-7b8c9c37f364
 2021-04-06 18:26:57.928 [AWT-EventQueue-0] DEBUG app.client.ClientFormController - New RTSP state: READY
-2021-04-06 18:26:58.075 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 19 TimeStamp 2850 ms, of type 26
+2021-04-06 18:26:58.075 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 19 TimeStamp 2850 ms, of type 26
 2021-04-06 18:37:12.072 [AWT-EventQueue-0] DEBUG app.client.ClientFormController - Setup Button pressed !
 2021-04-06 18:37:12.092 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - RTSP app.client.Client - Received from app.server.Server:
 2021-04-06 18:37:12.092 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - RTSP/1.0 200 OK
@@ -85,56 +85,56 @@
 2021-04-06 18:37:16.040 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - CSeq: 3
 2021-04-06 18:37:16.040 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - Session: c0ec7bc2-8778-43bb-8abe-770769e4e790
 2021-04-06 18:37:16.046 [AWT-EventQueue-0] DEBUG app.client.ClientFormController - New RTSP state: PLAYING
-2021-04-06 18:37:16.196 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 1 TimeStamp 150 ms, of type 26
-2021-04-06 18:37:16.345 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 2 TimeStamp 300 ms, of type 26
-2021-04-06 18:37:16.498 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 3 TimeStamp 450 ms, of type 26
-2021-04-06 18:37:16.652 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 4 TimeStamp 600 ms, of type 26
-2021-04-06 18:37:16.804 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 5 TimeStamp 750 ms, of type 26
-2021-04-06 18:37:16.958 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 6 TimeStamp 900 ms, of type 26
-2021-04-06 18:37:17.109 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 7 TimeStamp 1050 ms, of type 26
-2021-04-06 18:37:17.263 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 8 TimeStamp 1200 ms, of type 26
-2021-04-06 18:37:17.416 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 9 TimeStamp 1350 ms, of type 26
-2021-04-06 18:37:17.566 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 10 TimeStamp 1500 ms, of type 26
-2021-04-06 18:37:17.722 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 11 TimeStamp 1650 ms, of type 26
-2021-04-06 18:37:17.875 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 12 TimeStamp 1800 ms, of type 26
-2021-04-06 18:37:18.027 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 13 TimeStamp 1950 ms, of type 26
-2021-04-06 18:37:18.180 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 14 TimeStamp 2100 ms, of type 26
-2021-04-06 18:37:18.333 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 15 TimeStamp 2250 ms, of type 26
-2021-04-06 18:37:18.485 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 16 TimeStamp 2400 ms, of type 26
-2021-04-06 18:37:18.639 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 17 TimeStamp 2550 ms, of type 26
-2021-04-06 18:37:18.792 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 18 TimeStamp 2700 ms, of type 26
-2021-04-06 18:37:18.942 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 19 TimeStamp 2850 ms, of type 26
-2021-04-06 18:37:19.097 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 20 TimeStamp 3000 ms, of type 26
-2021-04-06 18:37:19.250 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 21 TimeStamp 3150 ms, of type 26
-2021-04-06 18:37:19.406 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 22 TimeStamp 3300 ms, of type 26
-2021-04-06 18:37:19.560 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 23 TimeStamp 3450 ms, of type 26
-2021-04-06 18:37:19.715 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 24 TimeStamp 3600 ms, of type 26
-2021-04-06 18:37:19.869 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 25 TimeStamp 3750 ms, of type 26
-2021-04-06 18:37:20.024 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 26 TimeStamp 3900 ms, of type 26
-2021-04-06 18:37:20.178 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 27 TimeStamp 4050 ms, of type 26
-2021-04-06 18:37:20.328 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 28 TimeStamp 4200 ms, of type 26
-2021-04-06 18:37:20.484 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 29 TimeStamp 4350 ms, of type 26
-2021-04-06 18:37:20.637 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 30 TimeStamp 4500 ms, of type 26
-2021-04-06 18:37:20.792 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 31 TimeStamp 4650 ms, of type 26
-2021-04-06 18:37:20.946 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 32 TimeStamp 4800 ms, of type 26
-2021-04-06 18:37:21.098 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 33 TimeStamp 4950 ms, of type 26
-2021-04-06 18:37:21.252 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 34 TimeStamp 5100 ms, of type 26
-2021-04-06 18:37:21.405 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 35 TimeStamp 5250 ms, of type 26
-2021-04-06 18:37:21.557 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 36 TimeStamp 5400 ms, of type 26
-2021-04-06 18:37:21.711 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 37 TimeStamp 5550 ms, of type 26
-2021-04-06 18:37:21.863 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 38 TimeStamp 5700 ms, of type 26
-2021-04-06 18:37:22.017 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 39 TimeStamp 5850 ms, of type 26
-2021-04-06 18:37:22.169 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 40 TimeStamp 6000 ms, of type 26
-2021-04-06 18:37:22.322 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 41 TimeStamp 6150 ms, of type 26
-2021-04-06 18:37:22.477 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 42 TimeStamp 6300 ms, of type 26
-2021-04-06 18:37:22.632 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 43 TimeStamp 6450 ms, of type 26
-2021-04-06 18:37:22.784 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 44 TimeStamp 6600 ms, of type 26
-2021-04-06 18:37:22.939 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 45 TimeStamp 6750 ms, of type 26
-2021-04-06 18:37:23.090 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 46 TimeStamp 6900 ms, of type 26
-2021-04-06 18:37:23.244 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 47 TimeStamp 7050 ms, of type 26
-2021-04-06 18:37:23.399 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 48 TimeStamp 7200 ms, of type 26
-2021-04-06 18:37:23.555 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 49 TimeStamp 7350 ms, of type 26
-2021-04-06 18:37:23.709 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum 2021-04-06 18:37:12.087 [Thread-4] DEBUG app.server.comm.ServerRtspController - RTSP app.server.Server - Received from app.client.Client:
+2021-04-06 18:37:16.196 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 1 TimeStamp 150 ms, of type 26
+2021-04-06 18:37:16.345 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 2 TimeStamp 300 ms, of type 26
+2021-04-06 18:37:16.498 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 3 TimeStamp 450 ms, of type 26
+2021-04-06 18:37:16.652 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 4 TimeStamp 600 ms, of type 26
+2021-04-06 18:37:16.804 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 5 TimeStamp 750 ms, of type 26
+2021-04-06 18:37:16.958 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 6 TimeStamp 900 ms, of type 26
+2021-04-06 18:37:17.109 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 7 TimeStamp 1050 ms, of type 26
+2021-04-06 18:37:17.263 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 8 TimeStamp 1200 ms, of type 26
+2021-04-06 18:37:17.416 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 9 TimeStamp 1350 ms, of type 26
+2021-04-06 18:37:17.566 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 10 TimeStamp 1500 ms, of type 26
+2021-04-06 18:37:17.722 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 11 TimeStamp 1650 ms, of type 26
+2021-04-06 18:37:17.875 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 12 TimeStamp 1800 ms, of type 26
+2021-04-06 18:37:18.027 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 13 TimeStamp 1950 ms, of type 26
+2021-04-06 18:37:18.180 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 14 TimeStamp 2100 ms, of type 26
+2021-04-06 18:37:18.333 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 15 TimeStamp 2250 ms, of type 26
+2021-04-06 18:37:18.485 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 16 TimeStamp 2400 ms, of type 26
+2021-04-06 18:37:18.639 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 17 TimeStamp 2550 ms, of type 26
+2021-04-06 18:37:18.792 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 18 TimeStamp 2700 ms, of type 26
+2021-04-06 18:37:18.942 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 19 TimeStamp 2850 ms, of type 26
+2021-04-06 18:37:19.097 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 20 TimeStamp 3000 ms, of type 26
+2021-04-06 18:37:19.250 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 21 TimeStamp 3150 ms, of type 26
+2021-04-06 18:37:19.406 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 22 TimeStamp 3300 ms, of type 26
+2021-04-06 18:37:19.560 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 23 TimeStamp 3450 ms, of type 26
+2021-04-06 18:37:19.715 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 24 TimeStamp 3600 ms, of type 26
+2021-04-06 18:37:19.869 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 25 TimeStamp 3750 ms, of type 26
+2021-04-06 18:37:20.024 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 26 TimeStamp 3900 ms, of type 26
+2021-04-06 18:37:20.178 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 27 TimeStamp 4050 ms, of type 26
+2021-04-06 18:37:20.328 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 28 TimeStamp 4200 ms, of type 26
+2021-04-06 18:37:20.484 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 29 TimeStamp 4350 ms, of type 26
+2021-04-06 18:37:20.637 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 30 TimeStamp 4500 ms, of type 26
+2021-04-06 18:37:20.792 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 31 TimeStamp 4650 ms, of type 26
+2021-04-06 18:37:20.946 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 32 TimeStamp 4800 ms, of type 26
+2021-04-06 18:37:21.098 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 33 TimeStamp 4950 ms, of type 26
+2021-04-06 18:37:21.252 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 34 TimeStamp 5100 ms, of type 26
+2021-04-06 18:37:21.405 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 35 TimeStamp 5250 ms, of type 26
+2021-04-06 18:37:21.557 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 36 TimeStamp 5400 ms, of type 26
+2021-04-06 18:37:21.711 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 37 TimeStamp 5550 ms, of type 26
+2021-04-06 18:37:21.863 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 38 TimeStamp 5700 ms, of type 26
+2021-04-06 18:37:22.017 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 39 TimeStamp 5850 ms, of type 26
+2021-04-06 18:37:22.169 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 40 TimeStamp 6000 ms, of type 26
+2021-04-06 18:37:22.322 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 41 TimeStamp 6150 ms, of type 26
+2021-04-06 18:37:22.477 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 42 TimeStamp 6300 ms, of type 26
+2021-04-06 18:37:22.632 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 43 TimeStamp 6450 ms, of type 26
+2021-04-06 18:37:22.784 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 44 TimeStamp 6600 ms, of type 26
+2021-04-06 18:37:22.939 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 45 TimeStamp 6750 ms, of type 26
+2021-04-06 18:37:23.090 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 46 TimeStamp 6900 ms, of type 26
+2021-04-06 18:37:23.244 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 47 TimeStamp 7050 ms, of type 26
+2021-04-06 18:37:23.399 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 48 TimeStamp 7200 ms, of type 26
+2021-04-06 18:37:23.555 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 49 TimeStamp 7350 ms, of type 26
+2021-04-06 18:37:23.709 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum 2021-04-06 18:37:12.087 [Thread-4] DEBUG app.server.comm.ServerRtspController - RTSP app.server.Server - Received from app.client.Client:
 2021-04-06 18:37:12.089 [Thread-4] DEBUG app.server.comm.ServerRtspController - SETUP RTSP/1.0
 2021-04-06 18:37:12.090 [Thread-4] DEBUG app.server.comm.ServerRtspController - CSeq: 2
 2021-04-06 18:37:12.090 [Thread-4] DEBUG app.server.comm.ServerRtspController - Transport: RTP/UDP; client_port= 25000
@@ -199,9 +199,9 @@
 2021-04-06 18:37:23.747 [AWT-EventQueue-0] DEBUG app.server.audio.AudioSenderListener - Send frame #51, Frame size: 10000 (10000)
 2021-04-06 18:37:23.901 [AWT-EventQueue-0] DEBUG app.server.audio.AudioSenderListener - Send frame #52, Frame size: 10000 (10000)
 2021-04-06 18:37:24.055 [AWT-EventQueue-0] DEBUG app.server.audio.AudioSenderLi# 50 TimeStamp 7500 ms, of type 26
-2021-04-06 18:37:23.864 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 51 TimeStamp 7650 ms, of type 26
-2021-04-06 18:37:24.018 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 52 TimeStamp 7800 ms, of type 26
-2021-04-06 18:37:24.169 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 53 TimeStamp 7950 ms, of type 26
+2021-04-06 18:37:23.864 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 51 TimeStamp 7650 ms, of type 26
+2021-04-06 18:37:24.018 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 52 TimeStamp 7800 ms, of type 26
+2021-04-06 18:37:24.169 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 53 TimeStamp 7950 ms, of type 26
 2021-04-06 18:37:24.265 [AWT-EventQueue-0] DEBUG app.client.ClientFormController - Pause Button pressed!
 2021-04-06 18:37:24.268 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - RTSP app.client.Client - Received from app.server.Server:
 2021-04-06 18:37:24.268 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - RTSP/1.0 200 OK
@@ -214,13 +214,13 @@
 2021-04-06 18:37:25.854 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - CSeq: 5
 2021-04-06 18:37:25.854 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - Session: c0ec7bc2-8778-43bb-8abe-770769e4e790
 2021-04-06 18:37:25.855 [AWT-EventQueue-0] DEBUG app.client.ClientFormController - New RTSP state: PLAYING
-2021-04-06 18:37:25.855 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 54 TimeStamp 8100 ms, of type 26
-2021-04-06 18:37:26.009 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 55 TimeStamp 8250 ms, of type 26
-2021-04-06 18:37:26.164 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 56 TimeStamp 8400 ms, of type 26
-2021-04-06 18:37:26.318 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 57 TimeStamp 8550 ms, of type 26
-2021-04-06 18:37:26.471 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 58 TimeStamp 8700 ms, of type 26
-2021-04-06 18:37:26.622 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 59 TimeStamp 8850 ms, of type 26
-2021-04-06 18:37:26.777 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 60 TimeStamp 9000 ms, of type 26
+2021-04-06 18:37:25.855 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 54 TimeStamp 8100 ms, of type 26
+2021-04-06 18:37:26.009 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 55 TimeStamp 8250 ms, of type 26
+2021-04-06 18:37:26.164 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 56 TimeStamp 8400 ms, of type 26
+2021-04-06 18:37:26.318 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 57 TimeStamp 8550 ms, of type 26
+2021-04-06 18:37:26.471 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 58 TimeStamp 8700 ms, of type 26
+2021-04-06 18:37:26.622 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 59 TimeStamp 8850 ms, of type 26
+2021-04-06 18:37:26.777 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 60 TimeStamp 9000 ms, of type 26
 2021-04-06 18:37:26.851 [AWT-EventQueue-0] DEBUG app.client.ClientFormController - Pause Button pressed!
 2021-04-06 18:37:26.854 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - RTSP app.client.Client - Received from app.server.Server:
 2021-04-06 18:37:26.854 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - RTSP/1.0 200 OK
@@ -233,13 +233,13 @@
 2021-04-06 18:37:32.290 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - CSeq: 7
 2021-04-06 18:37:32.290 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - Session: c0ec7bc2-8778-43bb-8abe-770769e4e790
 2021-04-06 18:37:32.291 [AWT-EventQueue-0] DEBUG app.client.ClientFormController - New RTSP state: PLAYING
-2021-04-06 18:37:32.291 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 61 TimeStamp 9150 ms, of type 26
-2021-04-06 18:37:32.445 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 62 TimeStamp 9300 ms, of type 26
-2021-04-06 18:37:32.599 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 63 TimeStamp 9450 ms, of type 26
-2021-04-06 18:37:32.754 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 64 TimeStamp 9600 ms, of type 26
-2021-04-06 18:37:32.907 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 65 TimeStamp 9750 ms, of type 26
-2021-04-06 18:37:33.060 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 66 TimeStamp 9900 ms, of type 26
-2021-04-06 18:37:33.213 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 67 TimeStamp 10050 ms, of type 26
+2021-04-06 18:37:32.291 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 61 TimeStamp 9150 ms, of type 26
+2021-04-06 18:37:32.445 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 62 TimeStamp 9300 ms, of type 26
+2021-04-06 18:37:32.599 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 63 TimeStamp 9450 ms, of type 26
+2021-04-06 18:37:32.754 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 64 TimeStamp 9600 ms, of type 26
+2021-04-06 18:37:32.907 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 65 TimeStamp 9750 ms, of type 26
+2021-04-06 18:37:33.060 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 66 TimeStamp 9900 ms, of type 26
+2021-04-06 18:37:33.213 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 67 TimeStamp 10050 ms, of type 26
 2021-04-06 18:37:33.353 [AWT-EventQueue-0] DEBUG app.client.ClientFormController - Pause Button pressed!
 2021-04-06 18:37:33.356 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - RTSP app.client.Client - Received from app.server.Server:
 2021-04-06 18:37:33.356 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - RTSP/1.0 200 OK
@@ -315,26 +315,26 @@ stener - Send frame #53, Frame size: 10000 (10000)
 2021-04-06 18:40:55.627 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - CSeq: 3
 2021-04-06 18:40:55.628 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - Session: d3b2bee1-42e1-4ee3-af4a-6275e96dde24
 2021-04-06 18:40:55.633 [AWT-EventQueue-0] DEBUG app.client.ClientFormController - New RTSP state: PLAYING
-2021-04-06 18:40:55.783 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 1 TimeStamp 150 ms, of type 26
-2021-04-06 18:40:55.933 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 2 TimeStamp 300 ms, of type 26
-2021-04-06 18:40:56.088 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 3 TimeStamp 450 ms, of type 26
-2021-04-06 18:40:56.242 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 4 TimeStamp 600 ms, of type 26
-2021-04-06 18:40:56.396 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 5 TimeStamp 750 ms, of type 26
-2021-04-06 18:40:56.551 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 6 TimeStamp 900 ms, of type 26
-2021-04-06 18:40:56.706 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 7 TimeStamp 1050 ms, of type 26
-2021-04-06 18:40:56.861 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 8 TimeStamp 1200 ms, of type 26
-2021-04-06 18:40:57.016 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 9 TimeStamp 1350 ms, of type 26
-2021-04-06 18:40:57.170 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 10 TimeStamp 1500 ms, of type 26
-2021-04-06 18:40:57.325 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 11 TimeStamp 1650 ms, of type 26
-2021-04-06 18:40:57.480 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 12 TimeStamp 1800 ms, of type 26
-2021-04-06 18:40:57.634 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 13 TimeStamp 1950 ms, of type 26
-2021-04-06 18:40:57.789 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 14 TimeStamp 2100 ms, of type 26
-2021-04-06 18:40:57.944 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 15 TimeStamp 2250 ms, of type 26
-2021-04-06 18:40:58.098 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 16 TimeStamp 2400 ms, of type 26
-2021-04-06 18:40:58.253 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 17 TimeStamp 2550 ms, of type 26
-2021-04-06 18:40:58.407 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 18 TimeStamp 2700 ms, of type 26
-2021-04-06 18:40:58.562 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 19 TimeStamp 2850 ms, of type 26
-2021-04-06 18:40:58.716 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 20 TimeStamp 3000 ms, of type 26
+2021-04-06 18:40:55.783 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 1 TimeStamp 150 ms, of type 26
+2021-04-06 18:40:55.933 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 2 TimeStamp 300 ms, of type 26
+2021-04-06 18:40:56.088 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 3 TimeStamp 450 ms, of type 26
+2021-04-06 18:40:56.242 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 4 TimeStamp 600 ms, of type 26
+2021-04-06 18:40:56.396 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 5 TimeStamp 750 ms, of type 26
+2021-04-06 18:40:56.551 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 6 TimeStamp 900 ms, of type 26
+2021-04-06 18:40:56.706 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 7 TimeStamp 1050 ms, of type 26
+2021-04-06 18:40:56.861 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 8 TimeStamp 1200 ms, of type 26
+2021-04-06 18:40:57.016 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 9 TimeStamp 1350 ms, of type 26
+2021-04-06 18:40:57.170 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 10 TimeStamp 1500 ms, of type 26
+2021-04-06 18:40:57.325 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 11 TimeStamp 1650 ms, of type 26
+2021-04-06 18:40:57.480 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 12 TimeStamp 1800 ms, of type 26
+2021-04-06 18:40:57.634 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 13 TimeStamp 1950 ms, of type 26
+2021-04-06 18:40:57.789 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 14 TimeStamp 2100 ms, of type 26
+2021-04-06 18:40:57.944 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 15 TimeStamp 2250 ms, of type 26
+2021-04-06 18:40:58.098 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 16 TimeStamp 2400 ms, of type 26
+2021-04-06 18:40:58.253 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 17 TimeStamp 2550 ms, of type 26
+2021-04-06 18:40:58.407 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 18 TimeStamp 2700 ms, of type 26
+2021-04-06 18:40:58.562 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 19 TimeStamp 2850 ms, of type 26
+2021-04-06 18:40:58.716 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 20 TimeStamp 3000 ms, of type 26
 2021-04-06 18:40:58.773 [AWT-EventQueue-0] DEBUG app.client.ClientFormController - Pause Button pressed!
 2021-04-06 18:40:58.776 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - RTSP app.client.Client - Received from app.server.Server:
 2021-04-06 18:40:58.776 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - RTSP/1.0 200 OK
@@ -418,27 +418,27 @@ java.net.SocketException: Socket closed
 2021-04-06 18:42:04.325 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - CSeq: 3
 2021-04-06 18:42:04.325 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - Session: 1610f9a5-dde9-4f33-ba29-9c253d5fb7ca
 2021-04-06 18:42:04.330 [AWT-EventQueue-0] DEBUG app.client.ClientFormController - New RTSP state: PLAYING
-2021-04-06 18:42:04.478 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 1 TimeStamp 150 ms, of type 26
-2021-04-06 18:42:04.629 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 2 TimeStamp 300 ms, of type 26
-2021-04-06 18:42:04.784 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 3 TimeStamp 450 ms, of type 26
-2021-04-06 18:42:04.938 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 4 TimeStamp 600 ms, of type 26
-2021-04-06 18:42:05.094 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 5 TimeStamp 750 ms, of type 26
-2021-04-06 18:42:05.248 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 6 TimeStamp 900 ms, of type 26
-2021-04-06 18:42:05.398 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 7 TimeStamp 1050 ms, of type 26
-2021-04-06 18:42:05.548 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 8 TimeStamp 1200 ms, of type 26
-2021-04-06 18:42:05.700 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 9 TimeStamp 1350 ms, of type 26
-2021-04-06 18:42:05.855 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 10 TimeStamp 1500 ms, of type 26
-2021-04-06 18:42:06.005 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 11 TimeStamp 1650 ms, of type 26
-2021-04-06 18:42:06.159 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 12 TimeStamp 1800 ms, of type 26
-2021-04-06 18:42:06.313 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 13 TimeStamp 1950 ms, of type 26
-2021-04-06 18:42:06.464 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 14 TimeStamp 2100 ms, of type 26
-2021-04-06 18:42:06.619 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 15 TimeStamp 2250 ms, of type 26
-2021-04-06 18:42:06.774 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 16 TimeStamp 2400 ms, of type 26
-2021-04-06 18:42:06.930 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 17 TimeStamp 2550 ms, of type 26
-2021-04-06 18:42:07.083 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 18 TimeStamp 2700 ms, of type 26
-2021-04-06 18:42:07.236 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 19 TimeStamp 2850 ms, of type 26
-2021-04-06 18:42:07.390 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 20 TimeStamp 3000 ms, of type 26
-2021-04-06 18:42:07.544 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 21 TimeStamp 3150 ms, of type 26
+2021-04-06 18:42:04.478 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 1 TimeStamp 150 ms, of type 26
+2021-04-06 18:42:04.629 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 2 TimeStamp 300 ms, of type 26
+2021-04-06 18:42:04.784 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 3 TimeStamp 450 ms, of type 26
+2021-04-06 18:42:04.938 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 4 TimeStamp 600 ms, of type 26
+2021-04-06 18:42:05.094 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 5 TimeStamp 750 ms, of type 26
+2021-04-06 18:42:05.248 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 6 TimeStamp 900 ms, of type 26
+2021-04-06 18:42:05.398 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 7 TimeStamp 1050 ms, of type 26
+2021-04-06 18:42:05.548 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 8 TimeStamp 1200 ms, of type 26
+2021-04-06 18:42:05.700 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 9 TimeStamp 1350 ms, of type 26
+2021-04-06 18:42:05.855 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 10 TimeStamp 1500 ms, of type 26
+2021-04-06 18:42:06.005 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 11 TimeStamp 1650 ms, of type 26
+2021-04-06 18:42:06.159 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 12 TimeStamp 1800 ms, of type 26
+2021-04-06 18:42:06.313 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 13 TimeStamp 1950 ms, of type 26
+2021-04-06 18:42:06.464 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 14 TimeStamp 2100 ms, of type 26
+2021-04-06 18:42:06.619 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 15 TimeStamp 2250 ms, of type 26
+2021-04-06 18:42:06.774 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 16 TimeStamp 2400 ms, of type 26
+2021-04-06 18:42:06.930 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 17 TimeStamp 2550 ms, of type 26
+2021-04-06 18:42:07.083 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 18 TimeStamp 2700 ms, of type 26
+2021-04-06 18:42:07.236 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 19 TimeStamp 2850 ms, of type 26
+2021-04-06 18:42:07.390 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 20 TimeStamp 3000 ms, of type 26
+2021-04-06 18:42:07.544 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 21 TimeStamp 3150 ms, of type 26
 2021-04-06 18:42:07.650 [AWT-EventQueue-0] DEBUG app.client.ClientFormController - Pause Button pressed!
 2021-04-06 18:42:07.653 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - RTSP app.client.Client - Received from app.server.Server:
 2021-04-06 18:42:07.653 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - RTSP/1.0 200 OK
@@ -530,26 +530,26 @@ java.net.SocketException: Socket closed
 2021-04-06 18:42:25.509 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - CSeq: 3
 2021-04-06 18:42:25.509 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - Session: 2e27723d-bdda-4b64-aa51-2450fe52e91b
 2021-04-06 18:42:25.515 [AWT-EventQueue-0] DEBUG app.client.ClientFormController - New RTSP state: PLAYING
-2021-04-06 18:42:25.662 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 1 TimeStamp 150 ms, of type 26
-2021-04-06 18:42:25.814 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 2 TimeStamp 300 ms, of type 26
-2021-04-06 18:42:25.966 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 3 TimeStamp 450 ms, of type 26
-2021-04-06 18:42:26.121 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 4 TimeStamp 600 ms, of type 26
-2021-04-06 18:42:26.272 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 5 TimeStamp 750 ms, of type 26
-2021-04-06 18:42:26.424 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 6 TimeStamp 900 ms, of type 26
-2021-04-06 18:42:26.576 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 7 TimeStamp 1050 ms, of type 26
-2021-04-06 18:42:26.731 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 8 TimeStamp 1200 ms, of type 26
-2021-04-06 18:42:26.886 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 9 TimeStamp 1350 ms, of type 26
-2021-04-06 18:42:27.041 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 10 TimeStamp 1500 ms, of type 26
-2021-04-06 18:42:27.192 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 11 TimeStamp 1650 ms, of type 26
-2021-04-06 18:42:27.343 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 12 TimeStamp 1800 ms, of type 26
-2021-04-06 18:42:27.498 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 13 TimeStamp 1950 ms, of type 26
-2021-04-06 18:42:27.647 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 14 TimeStamp 2100 ms, of type 26
-2021-04-06 18:42:27.799 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 15 TimeStamp 2250 ms, of type 26
-2021-04-06 18:42:27.950 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 16 TimeStamp 2400 ms, of type 26
-2021-04-06 18:42:28.105 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 17 TimeStamp 2550 ms, of type 26
-2021-04-06 18:42:28.256 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 18 TimeStamp 2700 ms, of type 26
-2021-04-06 18:42:28.407 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 19 TimeStamp 2850 ms, of type 26
-2021-04-06 18:42:28.559 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 20 TimeStamp 3000 ms, of type 26
+2021-04-06 18:42:25.662 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 1 TimeStamp 150 ms, of type 26
+2021-04-06 18:42:25.814 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 2 TimeStamp 300 ms, of type 26
+2021-04-06 18:42:25.966 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 3 TimeStamp 450 ms, of type 26
+2021-04-06 18:42:26.121 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 4 TimeStamp 600 ms, of type 26
+2021-04-06 18:42:26.272 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 5 TimeStamp 750 ms, of type 26
+2021-04-06 18:42:26.424 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 6 TimeStamp 900 ms, of type 26
+2021-04-06 18:42:26.576 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 7 TimeStamp 1050 ms, of type 26
+2021-04-06 18:42:26.731 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 8 TimeStamp 1200 ms, of type 26
+2021-04-06 18:42:26.886 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 9 TimeStamp 1350 ms, of type 26
+2021-04-06 18:42:27.041 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 10 TimeStamp 1500 ms, of type 26
+2021-04-06 18:42:27.192 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 11 TimeStamp 1650 ms, of type 26
+2021-04-06 18:42:27.343 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 12 TimeStamp 1800 ms, of type 26
+2021-04-06 18:42:27.498 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 13 TimeStamp 1950 ms, of type 26
+2021-04-06 18:42:27.647 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 14 TimeStamp 2100 ms, of type 26
+2021-04-06 18:42:27.799 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 15 TimeStamp 2250 ms, of type 26
+2021-04-06 18:42:27.950 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 16 TimeStamp 2400 ms, of type 26
+2021-04-06 18:42:28.105 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 17 TimeStamp 2550 ms, of type 26
+2021-04-06 18:42:28.256 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 18 TimeStamp 2700 ms, of type 26
+2021-04-06 18:42:28.407 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 19 TimeStamp 2850 ms, of type 26
+2021-04-06 18:42:28.559 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 20 TimeStamp 3000 ms, of type 26
 2021-04-06 18:42:28.625 [AWT-EventQueue-0] DEBUG app.client.ClientFormController - Pause Button pressed!
 2021-04-06 18:42:28.627 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - RTSP app.client.Client - Received from app.server.Server:
 2021-04-06 18:42:28.628 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - RTSP/1.0 200 OK
@@ -562,12 +562,12 @@ java.net.SocketException: Socket closed
 2021-04-06 18:42:29.340 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - CSeq: 5
 2021-04-06 18:42:29.341 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - Session: 2e27723d-bdda-4b64-aa51-2450fe52e91b
 2021-04-06 18:42:29.341 [AWT-EventQueue-0] DEBUG app.client.ClientFormController - New RTSP state: PLAYING
-2021-04-06 18:42:29.342 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 21 TimeStamp 3150 ms, of type 26
-2021-04-06 18:42:29.494 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 22 TimeStamp 3300 ms, of type 26
-2021-04-06 18:42:29.645 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 23 TimeStamp 3450 ms, of type 26
-2021-04-06 18:42:29.800 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 24 TimeStamp 3600 ms, of type 26
-2021-04-06 18:42:29.954 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 25 TimeStamp 3750 ms, of type 26
-2021-04-06 18:42:30.107 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 26 TimeStamp 3900 ms, of type 26
+2021-04-06 18:42:29.342 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 21 TimeStamp 3150 ms, of type 26
+2021-04-06 18:42:29.494 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 22 TimeStamp 3300 ms, of type 26
+2021-04-06 18:42:29.645 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 23 TimeStamp 3450 ms, of type 26
+2021-04-06 18:42:29.800 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 24 TimeStamp 3600 ms, of type 26
+2021-04-06 18:42:29.954 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 25 TimeStamp 3750 ms, of type 26
+2021-04-06 18:42:30.107 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 26 TimeStamp 3900 ms, of type 26
 2021-04-06 18:42:30.202 [AWT-EventQueue-0] DEBUG app.client.ClientFormController - Pause Button pressed!
 2021-04-06 18:42:30.205 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - RTSP app.client.Client - Received from app.server.Server:
 2021-04-06 18:42:30.205 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - RTSP/1.0 200 OK
@@ -580,23 +580,23 @@ java.net.SocketException: Socket closed
 2021-04-06 18:42:31.165 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - CSeq: 7
 2021-04-06 18:42:31.165 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - Session: 2e27723d-bdda-4b64-aa51-2450fe52e91b
 2021-04-06 18:42:31.166 [AWT-EventQueue-0] DEBUG app.client.ClientFormController - New RTSP state: PLAYING
-2021-04-06 18:42:31.166 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 27 TimeStamp 4050 ms, of type 26
-2021-04-06 18:42:31.317 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 28 TimeStamp 4200 ms, of type 26
-2021-04-06 18:42:31.468 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 29 TimeStamp 4350 ms, of type 26
-2021-04-06 18:42:31.621 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 30 TimeStamp 4500 ms, of type 26
-2021-04-06 18:42:31.776 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 31 TimeStamp 4650 ms, of type 26
-2021-04-06 18:42:31.931 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 32 TimeStamp 4800 ms, of type 26
-2021-04-06 18:42:32.085 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 33 TimeStamp 4950 ms, of type 26
-2021-04-06 18:42:32.236 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 34 TimeStamp 5100 ms, of type 26
-2021-04-06 18:42:32.389 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 35 TimeStamp 5250 ms, of type 26
-2021-04-06 18:42:32.544 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 36 TimeStamp 5400 ms, of type 26
-2021-04-06 18:42:32.694 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 37 TimeStamp 5550 ms, of type 26
-2021-04-06 18:42:32.844 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 38 TimeStamp 5700 ms, of type 26
-2021-04-06 18:42:32.999 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 39 TimeStamp 5850 ms, of type 26
-2021-04-06 18:42:33.152 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 40 TimeStamp 6000 ms, of type 26
-2021-04-06 18:42:33.302 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 41 TimeStamp 6150 ms, of type 26
-2021-04-06 18:42:33.453 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 42 TimeStamp 6300 ms, of type 26
-2021-04-06 18:42:33.603 [AWT-EventQueue-0] DEBUG app.client.AudioReceiver - Got RTP packet with SeqNum # 43 TimeStamp 6450 ms, of type 26
+2021-04-06 18:42:31.166 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 27 TimeStamp 4050 ms, of type 26
+2021-04-06 18:42:31.317 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 28 TimeStamp 4200 ms, of type 26
+2021-04-06 18:42:31.468 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 29 TimeStamp 4350 ms, of type 26
+2021-04-06 18:42:31.621 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 30 TimeStamp 4500 ms, of type 26
+2021-04-06 18:42:31.776 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 31 TimeStamp 4650 ms, of type 26
+2021-04-06 18:42:31.931 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 32 TimeStamp 4800 ms, of type 26
+2021-04-06 18:42:32.085 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 33 TimeStamp 4950 ms, of type 26
+2021-04-06 18:42:32.236 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 34 TimeStamp 5100 ms, of type 26
+2021-04-06 18:42:32.389 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 35 TimeStamp 5250 ms, of type 26
+2021-04-06 18:42:32.544 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 36 TimeStamp 5400 ms, of type 26
+2021-04-06 18:42:32.694 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 37 TimeStamp 5550 ms, of type 26
+2021-04-06 18:42:32.844 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 38 TimeStamp 5700 ms, of type 26
+2021-04-06 18:42:32.999 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 39 TimeStamp 5850 ms, of type 26
+2021-04-06 18:42:33.152 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 40 TimeStamp 6000 ms, of type 26
+2021-04-06 18:42:33.302 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 41 TimeStamp 6150 ms, of type 26
+2021-04-06 18:42:33.453 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 42 TimeStamp 6300 ms, of type 26
+2021-04-06 18:42:33.603 [AWT-EventQueue-0] DEBUG app.client.ClientRtpController - Got RTP packet with SeqNum # 43 TimeStamp 6450 ms, of type 26
 2021-04-06 18:42:33.690 [AWT-EventQueue-0] DEBUG app.client.ClientFormController - Teardown Button pressed !
 2021-04-06 18:42:33.693 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - RTSP app.client.Client - Received from app.server.Server:
 2021-04-06 18:42:33.693 [AWT-EventQueue-0] DEBUG app.client.ClientRtspController - RTSP/1.0 200 OK
