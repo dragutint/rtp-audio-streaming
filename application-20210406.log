@@ -105,3 +105,267 @@
 2021-04-06 20:50:06.632 [Thread-4] DEBUG server.comm.ServerRtspController - CSeq: 5
 2021-04-06 20:50:06.632 [Thread-4] DEBUG server.comm.ServerRtspController - Session: 4dd0beee-72ca-46d7-8d57-60e50aa09189
 2021-04-06 20:50:06.632 [Thread-4] DEBUG server.comm.ServerRtspController - RTSP server - sent response to client
+2021-04-06 20:51:12.629 [AWT-EventQueue-0] DEBUG client.ClientFormController - Setup Button pressed !
+2021-04-06 20:51:12.654 [AWT-EventQueue-0] DEBUG client.ClientRtspController - RTSP client - Received from server:
+2021-04-06 20:51:12.655 [AWT-EventQueue-0] DEBUG client.ClientRtspController - RTSP/1.0 200 OK
+2021-04-06 20:51:12.655 [AWT-EventQueue-0] DEBUG client.ClientRtspController - CSeq: 2
+2021-04-06 20:51:12.655 [AWT-EventQueue-0] DEBUG client.ClientRtspController - Session: 26fa2278-ea8e-4577-8462-55d4090ea0f3
+2021-04-06 20:51:12.655 [AWT-EventQueue-0] DEBUG client.ClientFormController - New RTSP state: READY
+2021-04-06 20:51:13.427 [AWT-EventQueue-0] DEBUG client.ClientFormController - Play Button pressed!
+2021-04-06 20:51:13.430 [AWT-EventQueue-0] DEBUG client.ClientRtspController - RTSP client - Received from server:
+2021-04-06 20:51:13.430 [AWT-EventQueue-0] DEBUG client.ClientRtspController - RTSP/1.0 200 OK
+2021-04-06 20:51:13.430 [AWT-EventQueue-0] DEBUG client.ClientRtspController - CSeq: 3
+2021-04-06 20:51:13.431 [AWT-EventQueue-0] DEBUG client.ClientRtspController - Session: 26fa2278-ea8e-4577-8462-55d4090ea0f3
+2021-04-06 20:51:13.437 [AWT-EventQueue-0] DEBUG client.ClientFormController - New RTSP state: PLAYING
+2021-04-06 20:51:13.566 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 1 TimeStamp 150 ms, of type 26
+2021-04-06 20:51:13.719 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 2 TimeStamp 300 ms, of type 26
+2021-04-06 20:51:13.874 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 3 TimeStamp 450 ms, of type 26
+2021-04-06 20:51:14.029 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 4 TimeStamp 600 ms, of type 26
+2021-04-06 20:51:14.185 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 5 TimeStamp 750 ms, of type 26
+2021-04-06 20:51:14.340 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 6 TimeStamp 900 ms, of type 26
+2021-04-06 20:51:14.494 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 7 TimeStamp 1050 ms, of type 26
+2021-04-06 20:51:14.649 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 8 TimeStamp 1200 ms, of type 26
+2021-04-06 20:51:14.803 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 9 TimeStamp 1350 ms, of type 26
+2021-04-06 20:51:14.957 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 10 TimeStamp 1500 ms, of type 26
+2021-04-06 20:51:15.112 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 11 TimeStamp 1650 ms, of type 26
+2021-04-06 20:51:15.267 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 12 TimeStamp 1800 ms, of type 26
+2021-04-06 20:51:15.422 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 13 TimeStamp 1950 ms, of type 26
+2021-04-06 20:51:15.576 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 14 TimeStamp 2100 ms, of type 26
+2021-04-06 20:51:15.730 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 15 TimeStamp 2250 ms, of type 26
+2021-04-06 20:51:15.885 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 16 TimeStamp 2400 ms, of type 26
+2021-04-06 20:51:16.038 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 17 TimeStamp 2550 ms, of type 26
+2021-04-06 20:51:16.192 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 18 TimeStamp 2700 ms, of type 26
+2021-04-06 20:51:16.347 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 19 TimeStamp 2850 ms, of type 26
+2021-04-06 20:51:16.502 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 20 TimeStamp 3000 ms, of type 26
+2021-04-06 20:51:16.656 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 21 TimeStamp 3150 ms, of type 26
+2021-04-06 20:51:16.810 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 22 TimeStamp 3300 ms, of type 26
+2021-04-06 20:51:16.965 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 23 TimeStamp 3450 ms, of type 26
+2021-04-06 20:51:17.120 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 24 TimeStamp 3600 ms, of type 26
+2021-04-06 20:51:17.274 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 25 TimeStamp 3750 ms, of type 26
+2021-04-06 20:51:17.428 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 26 TimeStamp 3900 ms, of type 26
+2021-04-06 20:51:17.584 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 27 TimeStamp 4050 ms, of type 26
+2021-04-06 20:51:17.738 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 28 TimeStamp 4200 ms, of type 26
+2021-04-06 20:51:17.892 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 29 TimeStamp 4350 ms, of type 26
+2021-04-06 20:51:18.047 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 30 TimeStamp 4500 ms, of type 26
+2021-04-06 20:51:18.200 [AWT-EventQueue-0] DEBUG client.ClientFormController - Pause Button pressed!
+2021-04-06 20:51:18.202 [AWT-EventQueue-0] DEBUG client.ClientRtspController - RTSP client - Received from server:
+2021-04-06 20:51:18.202 [AWT-EventQueue-0] DEBUG client.ClientRtspController - RTSP/1.0 200 OK
+2021-04-06 20:51:18.202 [AWT-EventQueue-0] DEBUG client.ClientRtspController - CSeq: 4
+2021-04-06 20:51:18.203 [AWT-EventQueue-0] DEBUG client.ClientRtspController - Session: 26fa2278-ea8e-4577-8462-55d4090ea0f3
+2021-04-06 20:51:18.203 [AWT-EventQueue-0] DEBUG client.ClientFormController - New RTSP state: READY
+2021-04-06 20:51:21.009 [AWT-EventQueue-0] DEBUG client.ClientFormController - Play Button pressed!
+2021-04-06 20:51:21.012 [AWT-EventQueue-0] DEBUG client.ClientRtspController - RTSP client - Received from server:
+2021-04-06 20:51:21.012 [AWT-EventQueue-0] DEBUG client.ClientRtspController - RTSP/1.0 200 OK
+2021-04-06 20:51:21.013 [AWT-EventQueue-0] DEBUG client.ClientRtspController - CSeq: 5
+2021-04-06 20:51:21.013 [AWT-EventQueue-0] DEBUG client.ClientRtspController - Session: 26fa2278-ea8e-4577-8462-55d4090ea0f3
+2021-04-06 20:51:21.013 [AWT-EventQueue-0] DEBUG client.ClientFormController - New RTSP state: PLAYING
+2021-04-06 20:51:21.014 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 31 TimeStamp 4650 ms, of type 26
+2021-04-06 20:51:21.168 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 32 TimeStamp 4800 ms, of type 26
+2021-04-06 20:51:21.323 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 33 TimeStamp 4950 ms, of type 26
+2021-04-06 20:51:21.478 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 34 TimeStamp 5100 ms, of type 26
+2021-04-06 20:51:21.632 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 35 TimeStamp 5250 ms, of type 26
+2021-04-06 20:51:21.786 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 36 TimeStamp 5400 ms, of type 26
+2021-04-06 20:51:21.941 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 37 TimeStamp 5550 ms, of type 26
+2021-04-06 20:51:22.096 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 38 TimeStamp 5700 ms, of type 26
+2021-04-06 20:51:22.251 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 39 TimeStamp 5850 ms, of type 26
+2021-04-06 20:51:22.405 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 40 TimeStamp 6000 ms, of type 26
+2021-04-06 20:51:22.559 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 42021-04-06 20:51:12.647 [Thread-4] DEBUG server.comm.ServerRtspController - RTSP Server - Received from client:
+2021-04-06 20:51:12.651 [Thread-4] DEBUG server.comm.ServerRtspController - SETUP RTSP/1.0
+2021-04-06 20:51:12.652 [Thread-4] DEBUG server.comm.ServerRtspController - CSeq: 2
+2021-04-06 20:51:12.652 [Thread-4] DEBUG server.comm.ServerRtspController - Transport: RTP/UDP; client_port= 25000
+2021-04-06 20:51:12.652 [Thread-4] DEBUG server.thread.ClientThread - New RTSP state: READY
+2021-04-06 20:51:12.653 [Thread-4] DEBUG server.comm.ServerRtspController - RTSP server - sent response to client
+2021-04-06 20:51:13.428 [Thread-4] DEBUG server.comm.ServerRtspController - RTSP Server - Received from client:
+2021-04-06 20:51:13.428 [Thread-4] DEBUG server.comm.ServerRtspController - PLAY RTSP/1.0
+2021-04-06 20:51:13.429 [Thread-4] DEBUG server.comm.ServerRtspController - CSeq: 3
+2021-04-06 20:51:13.429 [Thread-4] DEBUG server.comm.ServerRtspController - Session: 26fa2278-ea8e-4577-8462-55d4090ea0f3
+2021-04-06 20:51:13.430 [Thread-4] DEBUG server.comm.ServerRtspController - RTSP server - sent response to client
+2021-04-06 20:51:13.436 [Thread-4] DEBUG server.thread.ClientThread - New RTSP state: PLAYING
+2021-04-06 20:51:13.462 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #1, Frame size: 10000 (10000)
+2021-04-06 20:51:13.610 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #2, Frame size: 10000 (10000)
+2021-04-06 20:51:13.764 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #3, Frame size: 10000 (10000)
+2021-04-06 20:51:13.920 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #4, Frame size: 10000 (10000)
+2021-04-06 20:51:14.074 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #5, Frame size: 10000 (10000)
+2021-04-06 20:51:14.229 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #6, Frame size: 10000 (10000)
+2021-04-06 20:51:14.383 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #7, Frame size: 10000 (10000)
+2021-04-06 20:51:14.538 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #8, Frame size: 10000 (10000)
+2021-04-06 20:51:14.692 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #9, Frame size: 10000 (10000)
+2021-04-06 20:51:14.847 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #10, Frame size: 10000 (10000)
+2021-04-06 20:51:15.003 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #11, Frame size: 10000 (10000)
+2021-04-06 20:51:15.157 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #12, Frame size: 10000 (10000)
+2021-04-06 20:51:15.311 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #13, Frame size: 10000 (10000)
+2021-04-06 20:51:15.466 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #14, Frame size: 10000 (10000)
+2021-04-06 20:51:15.620 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #15, Frame size: 10000 (10000)
+2021-04-06 20:51:15.776 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #16, Frame size: 10000 (10000)
+2021-04-06 20:51:15.930 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #17, Frame size: 10000 (10000)
+2021-04-06 20:51:16.085 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #18, Frame size: 10000 (10000)
+2021-04-06 20:51:16.239 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #19, Frame size: 10000 (10000)
+2021-04-06 20:51:16.394 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #20, Frame size: 10000 (10000)
+2021-04-06 20:51:16.549 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #21, Frame size: 10000 (10000)
+2021-04-06 20:51:16.703 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #22, Frame size: 10000 (10000)
+2021-04-06 20:51:16.858 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #23, Frame size: 10000 (10000)
+2021-04-06 20:51:17.013 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #24, Frame size: 10000 (10000)
+2021-04-06 20:51:17.167 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #25, Frame size: 10000 (10000)
+2021-04-06 20:51:17.322 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #26, Frame size: 10000 (10000)
+2021-04-06 20:51:17.476 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #27, Frame size: 10000 (10000)
+2021-04-06 20:51:17.631 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #28, Frame size: 10000 (10000)
+2021-04-06 20:51:17.786 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #29, Frame size: 10000 (10000)
+2021-04-06 20:51:17.941 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #30, Frame size: 10000 (10000)
+2021-04-06 20:51:18.096 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #31, Frame size: 10000 (10000)
+2021-04-06 20:51:18.200 [Thread-4] DEBUG server.comm.ServerRtspController - RTSP Server - Received from client:
+2021-04-06 20:51:18.201 [Thread-4] DEBUG server.comm.ServerRtspController - PAUSE RTSP/1.0
+2021-04-06 20:51:18.201 [Thread-4] DEBUG server.comm.ServerRtspController - CSeq: 4
+2021-04-06 20:51:18.201 [Thread-4] DEBUG server.comm.ServerRtspController - Session: 26fa2278-ea8e-4577-8462-55d4090ea0f3
+2021-04-06 20:51:18.201 [Thread-4] DEBUG server.comm.ServerRtspController - RTSP server - sent response to client
+2021-04-06 20:51:18.202 [Thread-4] DEBUG server.thread.ClientThread - New RTSP state: READY
+2021-04-06 20:51:21.010 [Thread-4] DEBUG server.comm.ServerRtspController - RTSP Server - Received from client:
+2021-04-06 20:51:21.011 [Thread-4] DEBUG server.comm.ServerRtspController - PLAY RTSP/1.0
+2021-04-06 20:51:21.011 [Thread-4] DEBUG server.comm.ServerRtspController - CSeq: 5
+2021-04-06 20:51:21.011 [Thread-4] DEBUG server.comm.ServerRtspController - Session: 26fa2278-ea8e-4577-8462-55d4090ea0f3
+2021-04-06 20:51:21.011 [Thread-4] DEBUG server.comm.ServerRtspController - RTSP server - sent response to client
+2021-04-06 20:51:21.012 [Thread-4] DEBUG server.thread.ClientThread - New RTSP state: PLAYING
+2021-04-06 20:51:21.012 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #32, Frame size: 10000 (10000)
+2021-04-06 20:51:21.168 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #33, Frame size: 10000 (10000)
+2021-04-06 20:51:21.322 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #34, Frame size: 10000 (10000)
+2021-04-06 20:51:21.476 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #35, Frame size: 10000 (10000)
+2021-04-06 20:51:21.632 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #36, Frame size: 10000 (10000)
+2021-04-06 20:51:21.786 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #37, Frame size: 10000 (10000)
+2021-04-06 20:51:21.941 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #38, Frame size: 10000 (10000)
+2021-04-06 20:51:22.096 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #39, Frame size: 10000 (10000)
+2021-04-06 20:51:22.251 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #40, Frame size: 10000 (10000)
+2021-04-06 20:51:22.406 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #41, Frame size: 10000 (10000)
+2021-04-06 20:51:22.559 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #42, Frame size: 10000 (10000)
+2021-04-06 20:51:22.714 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #43, Frame size: 10000 (10000)
+2021-04-06 20:51:22.868 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #44, Frame size: 10000 (10000)
+2021-04-06 20:51:23.023 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #45, Frame size: 10000 (10000)
+2021-04-06 20:51:23.179 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderLis1 TimeStamp 6150 ms, of type 26
+2021-04-06 20:51:22.713 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 42 TimeStamp 6300 ms, of type 26
+2021-04-06 20:51:22.868 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 43 TimeStamp 6450 ms, of type 26
+2021-04-06 20:51:23.023 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 44 TimeStamp 6600 ms, of type 26
+2021-04-06 20:51:23.179 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 45 TimeStamp 6750 ms, of type 26
+2021-04-06 20:51:23.333 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 46 TimeStamp 6900 ms, of type 26
+2021-04-06 20:51:23.488 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 47 TimeStamp 7050 ms, of type 26
+2021-04-06 20:51:23.642 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 48 TimeStamp 7200 ms, of type 26
+2021-04-06 20:51:23.796 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 49 TimeStamp 7350 ms, of type 26
+2021-04-06 20:51:23.951 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 50 TimeStamp 7500 ms, of type 26
+2021-04-06 20:51:24.107 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 51 TimeStamp 7650 ms, of type 26
+2021-04-06 20:51:24.261 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 52 TimeStamp 7800 ms, of type 26
+2021-04-06 20:51:24.416 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 53 TimeStamp 7950 ms, of type 26
+2021-04-06 20:51:24.570 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 54 TimeStamp 8100 ms, of type 26
+2021-04-06 20:51:24.725 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 55 TimeStamp 8250 ms, of type 26
+2021-04-06 20:51:24.880 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 56 TimeStamp 8400 ms, of type 26
+2021-04-06 20:51:25.035 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 57 TimeStamp 8550 ms, of type 26
+2021-04-06 20:51:25.190 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 58 TimeStamp 8700 ms, of type 26
+2021-04-06 20:51:25.343 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 59 TimeStamp 8850 ms, of type 26
+2021-04-06 20:51:25.498 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 60 TimeStamp 9000 ms, of type 26
+2021-04-06 20:51:25.652 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 61 TimeStamp 9150 ms, of type 26
+2021-04-06 20:51:25.807 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 62 TimeStamp 9300 ms, of type 26
+2021-04-06 20:51:25.962 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 63 TimeStamp 9450 ms, of type 26
+2021-04-06 20:51:26.117 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 64 TimeStamp 9600 ms, of type 26
+2021-04-06 20:51:26.210 [AWT-EventQueue-0] DEBUG client.ClientFormController - Pause Button pressed!
+2021-04-06 20:51:26.212 [AWT-EventQueue-0] DEBUG client.ClientRtspController - RTSP client - Received from server:
+2021-04-06 20:51:26.212 [AWT-EventQueue-0] DEBUG client.ClientRtspController - RTSP/1.0 200 OK
+2021-04-06 20:51:26.212 [AWT-EventQueue-0] DEBUG client.ClientRtspController - CSeq: 6
+2021-04-06 20:51:26.212 [AWT-EventQueue-0] DEBUG client.ClientRtspController - Session: 26fa2278-ea8e-4577-8462-55d4090ea0f3
+2021-04-06 20:51:26.212 [AWT-EventQueue-0] DEBUG client.ClientFormController - New RTSP state: READY
+2021-04-06 20:51:28.068 [AWT-EventQueue-0] DEBUG client.ClientFormController - Teardown Button pressed !
+2021-04-06 20:51:28.069 [AWT-EventQueue-0] DEBUG client.ClientRtspController - RTSP client - Received from server:
+2021-04-06 20:51:28.069 [AWT-EventQueue-0] DEBUG client.ClientRtspController - RTSP/1.0 200 OK
+2021-04-06 20:51:28.069 [AWT-EventQueue-0] DEBUG client.ClientRtspController - CSeq: 7
+2021-04-06 20:51:28.069 [AWT-EventQueue-0] DEBUG client.ClientRtspController - Session: 26fa2278-ea8e-4577-8462-55d4090ea0f3
+2021-04-06 20:51:28.069 [AWT-EventQueue-0] DEBUG client.ClientFormController - New RTSP state: INIT
+2021-04-06 20:51:49.870 [AWT-EventQueue-0] DEBUG client.ClientFormController - Setup Button pressed !
+2021-04-06 20:51:49.887 [AWT-EventQueue-0] DEBUG client.ClientRtspController - RTSP client - Received from server:
+2021-04-06 20:51:49.887 [AWT-EventQueue-0] DEBUG client.ClientRtspController - RTSP/1.0 200 OK
+2021-04-06 20:51:49.887 [AWT-EventQueue-0] DEBUG client.ClientRtspController - CSeq: 2
+2021-04-06 20:51:49.887 [AWT-EventQueue-0] DEBUG client.ClientRtspController - Session: 50ccb5be-9204-48c7-b23b-3d9da026bac3
+2021-04-06 20:51:49.888 [AWT-EventQueue-0] DEBUG client.ClientFormController - New RTSP state: READY
+2021-04-06 20:51:50.339 [AWT-EventQueue-0] DEBUG client.ClientFormController - Play Button pressed!
+2021-04-06 20:51:50.340 [AWT-EventQueue-0] DEBUG client.ClientRtspController - RTSP client - Received from server:
+2021-04-06 20:51:50.341 [AWT-EventQueue-0] DEBUG client.ClientRtspController - RTSP/1.0 200 OK
+2021-04-06 20:51:50.341 [AWT-EventQueue-0] DEBUG client.ClientRtspController - CSeq: 3
+2021-04-06 20:51:50.341 [AWT-EventQueue-0] DEBUG client.ClientRtspController - Session: 50ccb5be-9204-48c7-b23b-3d9da026bac3
+2021-04-06 20:51:50.347 [AWT-EventQueue-0] DEBUG client.ClientFormController - New RTSP state: PLAYING
+2021-04-06 20:51:50.459 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 1 TimeStamp 150 ms, of type 26
+2021-04-06 20:51:50.613 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 2 TimeStamp 300 ms, of type 26
+2021-04-06 20:51:50.767 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 3 TimeStamp 450 ms, of type 26
+2021-04-06 20:51:50.923 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 4 TimeStamp 600 ms, of type 26
+2021-04-06 20:51:51.078 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 5 TimeStamp 750 ms, of type 26
+2021-04-06 20:51:51.232 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 6 TimeStamp 900 ms, of type 26
+2021-04-06 20:51:51.386 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 7 TimeStamp 1050 ms, of type 26
+2021-04-06 20:51:51.541 [AWT-EventQueue-0] DEBUG client.ClientRtpController - Got RTP packet with SeqNum # 8 TimeStamp 1200 ms, of type 26
+2021-04-06 20:51:51.650 [AWT-EventQueue-0] DEBUG client.ClientFormController - Pause Button pressed!
+2021-04-06 20:51:51.651 [AWT-EventQueue-0] DEBUG client.ClientRtspController - RTSP client - Received from server:
+2021-04-06 20:51:51.652 [AWT-EventQueue-0] DEBUG client.ClientRtspController - RTSP/1.0 200 OK
+2021-04-06 20:51:51.652 [AWT-EventQueue-0] DEBUG client.ClientRtspController - CSeq: 4
+2021-04-06 20:51:51.652 [AWT-EventQueue-0] DEBUG client.ClientRtspController - Session: 50ccb5be-9204-48c7-b23b-3d9da026bac3
+2021-04-06 20:51:51.653 [AWT-EventQueue-0] DEBUG client.ClientFormController - New RTSP state: READY
+2021-04-06 20:51:52.478 [AWT-EventQueue-0] DEBUG client.ClientFormController - Teardown Button pressed !
+2021-04-06 20:51:52.481 [AWT-EventQueue-0] DEBUG client.ClientRtspController - RTSP client - Received from server:
+2021-04-06 20:51:52.482 [AWT-EventQueue-0] DEBUG client.ClientRtspController - RTSP/1.0 200 OK
+2021-04-06 20:51:52.482 [AWT-EventQueue-0] DEBUG client.ClientRtspController - CSeq: 5
+2021-04-06 20:51:52.482 [AWT-EventQueue-0] DEBUG client.ClientRtspController - Session: 50ccb5be-9204-48c7-b23b-3d9da026bac3
+2021-04-06 20:51:52.482 [AWT-EventQueue-0] DEBUG client.ClientFormController - New RTSP state: INIT
+tener - Send frame #46, Frame size: 10000 (10000)
+2021-04-06 20:51:23.333 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #47, Frame size: 10000 (10000)
+2021-04-06 20:51:23.488 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #48, Frame size: 10000 (10000)
+2021-04-06 20:51:23.642 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #49, Frame size: 10000 (10000)
+2021-04-06 20:51:23.796 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #50, Frame size: 10000 (10000)
+2021-04-06 20:51:23.951 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #51, Frame size: 10000 (10000)
+2021-04-06 20:51:24.106 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #52, Frame size: 10000 (10000)
+2021-04-06 20:51:24.261 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #53, Frame size: 10000 (10000)
+2021-04-06 20:51:24.416 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #54, Frame size: 10000 (10000)
+2021-04-06 20:51:24.571 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #55, Frame size: 10000 (10000)
+2021-04-06 20:51:24.725 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #56, Frame size: 10000 (10000)
+2021-04-06 20:51:24.880 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #57, Frame size: 10000 (10000)
+2021-04-06 20:51:25.035 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #58, Frame size: 10000 (10000)
+2021-04-06 20:51:25.190 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #59, Frame size: 10000 (10000)
+2021-04-06 20:51:25.344 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #60, Frame size: 10000 (10000)
+2021-04-06 20:51:25.498 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #61, Frame size: 10000 (10000)
+2021-04-06 20:51:25.653 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #62, Frame size: 10000 (10000)
+2021-04-06 20:51:25.808 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #63, Frame size: 10000 (10000)
+2021-04-06 20:51:25.962 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #64, Frame size: 10000 (10000)
+2021-04-06 20:51:26.118 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #65, Frame size: 10000 (10000)
+2021-04-06 20:51:26.211 [Thread-4] DEBUG server.comm.ServerRtspController - RTSP Server - Received from client:
+2021-04-06 20:51:26.211 [Thread-4] DEBUG server.comm.ServerRtspController - PAUSE RTSP/1.0
+2021-04-06 20:51:26.211 [Thread-4] DEBUG server.comm.ServerRtspController - CSeq: 6
+2021-04-06 20:51:26.211 [Thread-4] DEBUG server.comm.ServerRtspController - Session: 26fa2278-ea8e-4577-8462-55d4090ea0f3
+2021-04-06 20:51:26.211 [Thread-4] DEBUG server.comm.ServerRtspController - RTSP server - sent response to client
+2021-04-06 20:51:26.212 [Thread-4] DEBUG server.thread.ClientThread - New RTSP state: READY
+2021-04-06 20:51:28.068 [Thread-4] DEBUG server.comm.ServerRtspController - RTSP Server - Received from client:
+2021-04-06 20:51:28.068 [Thread-4] DEBUG server.comm.ServerRtspController - TEARDOWN RTSP/1.0
+2021-04-06 20:51:28.068 [Thread-4] DEBUG server.comm.ServerRtspController - CSeq: 7
+2021-04-06 20:51:28.068 [Thread-4] DEBUG server.comm.ServerRtspController - Session: 26fa2278-ea8e-4577-8462-55d4090ea0f3
+2021-04-06 20:51:28.069 [Thread-4] DEBUG server.comm.ServerRtspController - RTSP server - sent response to client
+2021-04-06 20:51:49.884 [Thread-10] DEBUG server.comm.ServerRtspController - RTSP Server - Received from client:
+2021-04-06 20:51:49.885 [Thread-10] DEBUG server.comm.ServerRtspController - SETUP RTSP/1.0
+2021-04-06 20:51:49.885 [Thread-10] DEBUG server.comm.ServerRtspController - CSeq: 2
+2021-04-06 20:51:49.885 [Thread-10] DEBUG server.comm.ServerRtspController - Transport: RTP/UDP; client_port= 25000
+2021-04-06 20:51:49.885 [Thread-10] DEBUG server.thread.ClientThread - New RTSP state: READY
+2021-04-06 20:51:49.886 [Thread-10] DEBUG server.comm.ServerRtspController - RTSP server - sent response to client
+2021-04-06 20:51:50.340 [Thread-10] DEBUG server.comm.ServerRtspController - RTSP Server - Received from client:
+2021-04-06 20:51:50.340 [Thread-10] DEBUG server.comm.ServerRtspController - PLAY RTSP/1.0
+2021-04-06 20:51:50.340 [Thread-10] DEBUG server.comm.ServerRtspController - CSeq: 3
+2021-04-06 20:51:50.340 [Thread-10] DEBUG server.comm.ServerRtspController - Session: 50ccb5be-9204-48c7-b23b-3d9da026bac3
+2021-04-06 20:51:50.340 [Thread-10] DEBUG server.comm.ServerRtspController - RTSP server - sent response to client
+2021-04-06 20:51:50.341 [Thread-10] DEBUG server.thread.ClientThread - New RTSP state: PLAYING
+2021-04-06 20:51:50.342 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #1, Frame size: 10000 (10000)
+2021-04-06 20:51:50.496 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #2, Frame size: 10000 (10000)
+2021-04-06 20:51:50.651 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #3, Frame size: 10000 (10000)
+2021-04-06 20:51:50.805 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #4, Frame size: 10000 (10000)
+2021-04-06 20:51:50.959 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #5, Frame size: 10000 (10000)
+2021-04-06 20:51:51.114 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #6, Frame size: 10000 (10000)
+2021-04-06 20:51:51.269 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #7, Frame size: 10000 (10000)
+2021-04-06 20:51:51.423 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #8, Frame size: 10000 (10000)
+2021-04-06 20:51:51.578 [AWT-EventQueue-0] DEBUG server.audio.AudioSenderListener - Send frame #9, Frame size: 10000 (10000)
+2021-04-06 20:51:51.650 [Thread-10] DEBUG server.comm.ServerRtspController - RTSP Server - Received from client:
+2021-04-06 20:51:51.651 [Thread-10] DEBUG server.comm.ServerRtspController - PAUSE RTSP/1.0
+2021-04-06 20:51:51.651 [Thread-10] DEBUG server.comm.ServerRtspController - CSeq: 4
+2021-04-06 20:51:51.651 [Thread-10] DEBUG server.comm.ServerRtspController - Session: 50ccb5be-9204-48c7-b23b-3d9da026bac3
+2021-04-06 20:51:51.651 [Thread-10] DEBUG server.comm.ServerRtspController - RTSP server - sent response to client
+2021-04-06 20:51:51.651 [Thread-10] DEBUG server.thread.ClientThread - New RTSP state: READY
+2021-04-06 20:51:52.479 [Thread-10] DEBUG server.comm.ServerRtspController - RTSP Server - Received from client:
+2021-04-06 20:51:52.480 [Thread-10] DEBUG server.comm.ServerRtspController - TEARDOWN RTSP/1.0
+2021-04-06 20:51:52.480 [Thread-10] DEBUG server.comm.ServerRtspController - CSeq: 5
+2021-04-06 20:51:52.481 [Thread-10] DEBUG server.comm.ServerRtspController - Session: 50ccb5be-9204-48c7-b23b-3d9da026bac3
+2021-04-06 20:51:52.481 [Thread-10] DEBUG server.comm.ServerRtspController - RTSP server - sent response to client
