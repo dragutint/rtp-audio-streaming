@@ -62,7 +62,11 @@ public class AudioSenderListener implements ActionListener {
             byte[] packetByteArray = rtpPacket.getPacket();
 
             DatagramPacket packetForSending = new DatagramPacket(packetByteArray, packetLength, ctx.getClientIPAddr(), ctx.getRtpDestPort());
-            ctx.getRtpSocket().send(packetForSending);
+
+            if(!ctx.getRtpSocket().isClosed())
+                ctx.getRtpSocket().send(packetForSending);
+            else
+                return;
 
             log.debug("Send frame #" + packetNumber + ", Frame size: " + frameLength + " (" + frame.length + ")");
             rtpPacket.printHeader();

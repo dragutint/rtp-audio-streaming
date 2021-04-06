@@ -68,7 +68,7 @@ public class ClientThread extends Thread {
                 rtspController.closeSocket();
                 rtpController.closeSocket();
 
-                System.exit(0);
+                break;
             }
         }
     }
