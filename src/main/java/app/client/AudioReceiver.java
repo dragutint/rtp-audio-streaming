@@ -41,6 +41,14 @@ public class AudioReceiver extends Thread {
         timer.start();
     }
 
+    public void pause() {
+        timer.stop();
+    }
+
+    public void play() {
+        timer.start();
+    }
+
     private class AudioReceiverListener implements ActionListener {
 
         public void actionPerformed(ActionEvent e) {

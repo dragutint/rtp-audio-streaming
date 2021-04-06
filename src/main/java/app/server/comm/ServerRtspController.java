@@ -63,9 +63,6 @@ public class ServerRtspController {
                 for (int i = 0; i < 3; i++)
                     tokens.nextToken(); //skip unused stuff
                 rtpCtx.setRtpDestPort(Integer.parseInt(tokens.nextToken()));
-            } else if (request == RTSPRequestEnum.DESCRIBE) {
-                tokens.nextToken();
-                String describeDataType = tokens.nextToken();
             } else {
                 //otherwise LastLine will be the SessionId line
                 tokens.nextToken(); //skip Session:

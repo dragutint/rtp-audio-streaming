@@ -39,8 +39,6 @@ public class ClientRtspController {
 
             if (request == RTSPRequestEnum.SETUP) {
                 rtspBufferedWriter.write("Transport: RTP/UDP; client_port= " + RTP_RCV_PORT + Constants.CRLF);
-            } else if (request == RTSPRequestEnum.DESCRIBE) {
-                rtspBufferedWriter.write("Accept: application/sdp" + Constants.CRLF);
             } else {
                 rtspBufferedWriter.write("Session: " + rtspSessionID + Constants.CRLF);
             }

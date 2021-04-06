@@ -69,8 +69,6 @@ public class ClientThread extends Thread {
                 rtpController.closeSocket();
 
                 System.exit(0);
-            } else if (RTSPRequestEnum.DESCRIBE.equals(req)) {
-                log.debug("Received DESCRIBE request");
             }
         }
     }
